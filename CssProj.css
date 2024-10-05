@@ -1,0 +1,191 @@
+body{ 
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.logo{
+  width: 100px;
+  height: 90px;
+  margin-left: -10px;
+
+}
+.title {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  margin-left: -10px;
+  
+}
+.leftSide{
+  display: flex;
+  align-items: center;
+}
+.middleSide{
+  display: flex;
+  margin-left: 120px;
+
+}
+.search-bar{
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50px;
+  border: 2px solid;
+  border-color:rgb(241, 244, 224);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+::placeholder {
+  font-size: large;
+  padding-left: 7px;
+}
+
+.searchIcon{
+  width: 30px;
+  margin-left: -50px;
+}
+.voiceIcon {
+  width: 22px;
+}
+.mainHeader{
+  width: 100%;
+  background-color: rgb(208, 210, 197);
+  margin-top: -10px;
+  margin-left: -7px;
+  padding-left: 13px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  
+  
+
+}
+.voiceButton{
+  background: transparent;
+  margin-left: 25px;
+  width: 50px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color:rgb(224, 229, 199);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ 
+}
+.imageButton{
+ width: 50px;
+ height: 55px;
+ border: 2px solid;
+ border-color:rgb(224, 229, 199);
+ background: transparent;
+ border-radius: 50%;
+ margin-left: 5px;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.imageIcon{
+  width: 25px;
+}
+.middleSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+.rightSide  {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.rightSide ul {
+
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  gap: 20px; /* Adds space between list items */
+  
+}
+
+
+
+.rightSide ul li a {
+  text-decoration: none;
+  color: rgb(143, 135, 135); /* Customize the color if needed */
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-left: 30px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.one, .two {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 50px;
+  
+}
+.about {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: -19px;
+  color: aliceblue;
+}
+.two {
+  color: rgb(247, 3, 15);
+  margin-left: 40px;
+  margin-top: -15px;
+}
+.one {
+  margin-top: 120px;
+  margin-left: 20px;
+}
+.join {
+  background-color: rgb(238, 13, 13);
+  border: 2px solid #0c1201; /* Green */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+  font-size: larger;
+  font-family:sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: 5px,5px,6px,rgb(19, 19, 19);
+  color: rgb(215, 212, 212);
+}
+.painter {
+  position:fixed;
+  right: 50px;
+  top: 110px;
+  position:absolute;
+  width: 300px;
+  height: 300px;
+
+}
+.painter1 {
+  position:fixed;
+  width: 300px;
+  height: 300px;
+  right: 100px;
+  top: 320px;
+}
+.painter2 {
+  position:fixed;
+  width: 300px;
+  height: 300px;
+  right: 300px;
+  top: 230px;
+}
